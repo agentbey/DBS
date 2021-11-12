@@ -641,6 +641,9 @@ img{
 .socialicon {padding-right: 30px;}
 
 @media (max-width:1024px){
+	.flex-grid-half .col li,.flex-grid-thirds .col li{
+		text-align:left;
+	}
 	.col p{
 		text-align:center
 }
