@@ -630,12 +630,11 @@ img{
 	text-align:center
 }
 .scrollToTop a{
-	color:#fff;
-	text-decoration:none;
-	font-size:12px;
-	font-weight:600;
-	line-height:40px;
-	padding:0 10px
+	color: #fff;
+	text-decoration: none;
+	font-size: 2.4em;
+	margin: 0.2em;
+	line-height: 0;
 }
 
 .socialicon {padding-right: 30px;}
