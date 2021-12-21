@@ -271,13 +271,13 @@ img{
 	position:relative;
 	background:#24002b
 }
-.team1,.team2,.team3,.team4,.team5,.team6{
+.team1,.team2,.team3,.team4,.team5,.team6,.team7{
 	background-size:cover!important;
 	background-position:50% 50%!important;
 	min-height:500px;
 	transition:1s
 }
-.team1:hover,.team2:hover,.team3:hover,.team4:hover,.team5:hover,.team6:hover{
+.team1:hover,.team2:hover,.team3:hover,.team4:hover,.team5:hover,.team6:hover,.team7:hover{
 	opacity:.5;
 	cursor:pointer
 }
@@ -298,6 +298,9 @@ img{
 }
 .team6{
 	background:url(../images/team-06.jpg) no-repeat
+}
+.team7{
+	background:url(../images/team-07.jpg) no-repeat
 }
 .mikail-bg-image1{
 	background:url(../images/team-01.jpg) no-repeat;
@@ -322,6 +325,13 @@ img{
 }
 .mikail-bio-image{
 	background:url(../images/bio-mikail.jpg) no-repeat;
+	background-size:cover;
+	background-position:50% 50%;
+	min-height:480px;
+	transition:1s
+}
+.maddie-bg-image1{
+	background:url(../images/team-07.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	min-height:480px;
