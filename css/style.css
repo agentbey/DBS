@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom:2rem
 }
 h1{
-	font-size:32px;
+	font-size:30px;
 	line-height:1.2;
 	letter-spacing:.1px;
 	font-weight:600
@@ -250,7 +250,6 @@ img{
 	font-size:28px;
 	margin: 0;
 }
-
 .massagebook {
     color: #000000;
     padding: 60px 40px;
@@ -262,7 +261,6 @@ img{
 	font-size:32px;
 	margin: 0;
 }
-
 .full-width {
 	max-width: 100%;
 }
@@ -271,13 +269,13 @@ img{
 	position:relative;
 	background:#24002b
 }
-.team1,.team2,.team3,.team4,.team5,.team6,.team7{
+.team1,.team2,.team3,.team4,.team5,.team6,.team7,.team8{
 	background-size:cover!important;
 	background-position:50% 50%!important;
 	min-height:500px;
 	transition:1s
 }
-.team1:hover,.team2:hover,.team3:hover,.team4:hover,.team5:hover,.team6:hover,.team7:hover{
+.team1:hover,.team2:hover,.team3:hover,.team4:hover,.team5:hover,.team6:hover,.team7:hover,.team8:hover{
 	opacity:.5;
 	cursor:pointer
 }
@@ -301,6 +299,9 @@ img{
 }
 .team7{
 	background:url(../images/team-07.jpg) no-repeat
+}
+.team8{
+	background:url(../images/team-08.jpg) no-repeat
 }
 .mikail-bg-image1{
 	background:url(../images/team-01.jpg) no-repeat;
@@ -332,6 +333,13 @@ img{
 }
 .maddie-bg-image1{
 	background:url(../images/team-07.jpg) no-repeat;
+	background-size:cover;
+	background-position:50% 50%;
+	min-height:480px;
+	transition:1s
+}
+.trenity-bg-image1{
+	background:url(../images/team-08.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	min-height:480px;
