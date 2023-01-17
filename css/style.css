@@ -269,59 +269,38 @@ img{
 	position:relative;
 	background:#24002b
 }
-.team1,.team2,.team3,.team4,.team5,.team6,.team7,.team8,.team9{
+.mikail,.saood,.sacora,.cameron{
 	background-size:cover!important;
 	background-position:50% 50%!important;
 	min-height:500px;
 	transition:1s
 }
-.team1:hover,.team2:hover,.team3:hover,.team4:hover,.team5:hover,.team6:hover,.team7:hover,.team8:hover,.team9:hover{
+.mikail:hover,.saood:hover,.sacora:hover,.cameron:hover{
 	opacity:.5;
 	cursor:pointer
 }
-.team1{
-	background:url(../images/team-01.jpg) no-repeat
+.mikail{
+	background:url(../images/mikail.jpg) no-repeat
 }
-.team2{
-	background:url(../images/team-02.jpg) no-repeat
+.saood{
+	background:url(../images/saood.jpg) no-repeat
 }
-.team3{
-	background:url(../images/team-03.jpg) no-repeat
+.sacora{
+	background:url(../images/sacora.jpg) no-repeat
 }
-.team4{
-	background:url(../images/team-04.jpg) no-repeat
+.cameron{
+	background:url(../images/cameron.jpg) no-repeat
 }
-.team5{
-	background:url(../images/team-05.jpg) no-repeat
-}
-.team6{
-	background:url(../images/team-06.jpg) no-repeat
-}
-.team7{
-	background:url(../images/team-07.jpg) no-repeat
-}
-.team8{
-	background:url(../images/team-08.jpg) no-repeat
-}
-.team9{
-	background:url(../images/team-09.jpg) no-repeat
-}
+
 .mikail-bg-image1{
-	background:url(../images/team-01.jpg) no-repeat;
-	background-size:cover;
-	background-position:50% 50%;
-	min-height:480px;
-	transition:1s
-}
-.kamia-bg-image1{
-	background:url(../images/team-02.jpg) no-repeat;
+	background:url(../images/mikail.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	min-height:480px;
 	transition:1s
 }
 .saood-bg-image1{
-	background:url(../images/team-03.jpg) no-repeat;
+	background:url(../images/saood.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	min-height:480px;
@@ -334,22 +313,15 @@ img{
 	min-height:480px;
 	transition:1s
 }
-.maddie-bg-image1{
-	background:url(../images/team-07.jpg) no-repeat;
+.cameron-bg-image1{
+	background:url(../images/cameron.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	min-height:480px;
 	transition:1s
 }
-.trenity-bg-image1{
-	background:url(../images/team-08.jpg) no-repeat;
-	background-size:cover;
-	background-position:50% 50%;
-	min-height:480px;
-	transition:1s
-}
-.savoya-bg-image1{
-	background:url(../images/team-09.jpg) no-repeat;
+.sacora-bg-image1{
+	background:url(../images/sacora.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	min-height:480px;
