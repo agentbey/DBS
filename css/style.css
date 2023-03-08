@@ -469,7 +469,7 @@ img{
 .col.contact-bg-image{
 	background:url(../images/contact-01.jpg) no-repeat;
 	background-size:cover;
-	background-position:50% 50%;
+	background-position:top center;
 	padding:40px 20px;
 	min-height:480px
 }
