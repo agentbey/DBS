@@ -276,13 +276,13 @@ img{
 	position:relative;
 	background:#24002b
 }
-.mikail,.saood,.sacora,.cameron{
+.mikail,.saood,.sacora,.cameron,.ma_nija{
 	background-size:cover!important;
 	background-position:50% 50%!important;
 	min-height:500px;
 	transition:1s
 }
-.mikail:hover,.saood:hover,.sacora:hover,.cameron:hover{
+.mikail:hover,.saood:hover,.sacora:hover,.cameron:hover,.ma_nija:hover{
 	opacity:.5;
 	cursor:pointer
 }
@@ -297,6 +297,9 @@ img{
 }
 .cameron{
 	background:url(../images/cameron.jpg) no-repeat
+}
+.ma_nija{
+	background:url(../images/ma_nija.jpg) no-repeat
 }
 
 .mikail-bg-image1{
@@ -329,6 +332,13 @@ img{
 }
 .sacora-bg-image1{
 	background:url(../images/sacora.jpg) no-repeat;
+	background-size:cover;
+	background-position:50% 50%;
+	min-height:480px;
+	transition:1s
+}
+.ma_nija-bg-image1{
+	background:url(../images/ma_nija.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	min-height:480px;
