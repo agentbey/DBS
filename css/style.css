@@ -638,7 +638,7 @@ img{
 }
 .scrollToTop{
 	background:#ff292570;
-	border-radius:4px;
+	border-radius:8px;
 	cursor:pointer;
 	display:none;
 	position:fixed;
@@ -649,9 +649,10 @@ img{
 .scrollToTop a{
 	color: #fff;
 	text-decoration: none;
-	font-size: 1.8em;
-	margin: 0.2em;
-	line-height: 0;
+	font-size: 1.4em;
+}
+.scrollToTop a svg {
+    margin: 10px 10px 0;
 }
 
 .socialicon {padding-right: 30px;}
