@@ -1,32 +1,38 @@
 CACHE MANIFEST
 # 2017-09-20 v1.0.0
 
+/css/animate.min.css
 /css/normalize.css
-/css/skeleton.css
+/css/owl.carousel.min.css
+/css/owl.theme.default.min.css
 /css/style.css
-/images/mikail-hero,jpg
-/images/abstract-background
+
+/images/4_Card_color_horizontal.png
 /images/abstract-background@2x.jpg
 /images/bio-mikail.jpg
+/images/cameron.jpg
+/images/chestnut_hill_news_02.jpg
 /images/chestnut_hill_news.jpg
 /images/contact-01.jpg
 /images/dumbbell.svg
+/images/f_logo_RGB-White_512.png
 /images/favicon.png
+/images/glyph-logo_May2016_white.png
 /images/hardwork-01.jpg
 /images/hero-image.jpg
 /images/infared-sauna.jpg
+/images/mb-logo-green.svg
+/images/mikail.jpg
+/images/nija.jpg
 /images/nutrition.jpg
 /images/personal-training.jpg
 /images/pexels-photo-209968.jpg
+/images/reebok.png
 /images/right-arrow.svg
+/images/sacora.jpg
+/images/saood.jpg
 /images/self-defense.jpg
 /images/stretch-therapy.jpg
-/images/team-01.jpg
-/images/team-02.jpg
-/images/team-03.jpg
-/images/team-04.jpg
-/images/team-05.jpg
-/images/team-06.jpg
 /images/white-logo-final.svg
 /js/deznx.js
 /js/wow.min.js
