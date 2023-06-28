@@ -276,13 +276,13 @@ img{
 	position:relative;
 	background:#24002b
 }
-.mikail,.saood,.sacora,.cameron,.nija{
+.mikail,.saood,.que,.cameron,.nija{
 	background-size:cover!important;
 	background-position:50% 50%!important;
 	min-height:500px;
 	transition:1s
 }
-.mikail:hover,.saood:hover,.sacora:hover,.cameron:hover,.nija:hover{
+.mikail:hover,.saood:hover,.que:hover,.cameron:hover,.nija:hover{
 	opacity:.5;
 	cursor:pointer
 }
@@ -292,8 +292,8 @@ img{
 .saood{
 	background:url(../images/saood.jpg) no-repeat
 }
-.sacora{
-	background:url(../images/sacora.jpg) no-repeat
+.que{
+	background:url(../images/que.jpg) no-repeat
 }
 .cameron{
 	background:url(../images/cameron.jpg) no-repeat
@@ -330,8 +330,8 @@ img{
 	min-height:480px;
 	transition:1s
 }
-.sacora-bg-image1{
-	background:url(../images/sacora.jpg) no-repeat;
+.que-bg-image1{
+	background:url(../images/que.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	min-height:480px;
