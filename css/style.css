@@ -6,9 +6,11 @@ body {
     line-height: 1.6;
     font-weight: 300;
 }
+
 p {
     letter-spacing: 0.5px;
 }
+
 h1,
 h2,
 h3,
@@ -19,33 +21,43 @@ h6 {
     margin-top: 0;
     margin-bottom: 2rem;
 }
+
 h1 {
     font-size: 30px;
     line-height: 1.2;
     letter-spacing: 0.1px;
     font-weight: 600;
 }
+
 h2 {
     font-size: 1.4em;
     letter-spacing: 0.05em;
     line-height: 1.6;
 }
+
 h3 {
     font-size: 1.2em;
     letter-spacing: 0.05em;
     line-height: 1.4;
 }
+
 .bottom {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
 }
+
 header {
-    position: absolute;
     width: 100%;
-    z-index: 2;
 }
+
+.header-logo {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -54,27 +66,33 @@ header {
     padding: 0 20px;
     box-sizing: border-box;
 }
+
 .center {
     text-align: center;
 }
+
 .header-logo img {
     vertical-align: middle;
     display: inline-block;
-    margin: 40px;
+    margin: 30px;
 }
+
 .main-nav {
     margin: 0;
     text-align: center;
 }
+
 ul.main-nav {
     list-style: none;
 }
+
 li.main-nav-item {
     display: inline-block;
     text-align: center;
     margin: 0;
     padding: 40px 3%;
 }
+
 .main-nav-item a {
     color: #fff;
     font-size: 16px;
@@ -83,6 +101,7 @@ li.main-nav-item {
     text-transform: uppercase;
     font-weight: 600;
 }
+
 .main-nav-item a:active,
 .main-nav-item a:hover,
 .main-nav-item a:visited {
@@ -91,22 +110,27 @@ li.main-nav-item {
     border-top: 2px solid #ff9800;
     transition: 0.1s;
 }
+
 .secondary-nav {
     background: #000;
 }
+
 .secondary-nav {
     display: none;
 }
+
 ul.slideout-nav {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 li.slideout-nav-item {
     margin: 0;
     display: block;
     text-align: center;
 }
+
 .slideout-nav-item a {
     color: #fff;
     display: block;
@@ -116,15 +140,18 @@ li.slideout-nav-item {
     text-transform: uppercase;
     padding: 30px;
 }
+
 .slideout-nav-item a:hover {
     background: #d4874a;
     display: block;
 }
+
 img {
     border-style: none;
     max-width: 100%;
     height: auto;
 }
+
 .button,
 button {
     color: #fff;
@@ -144,6 +171,7 @@ button {
     cursor: pointer;
     box-sizing: border-box;
 }
+
 .button:focus,
 .button:hover,
 button:focus,
@@ -151,17 +179,19 @@ button:hover {
     background-color: #000000c2;
     color: #fff;
 }
+
 .hero {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 15% 40px 40px;
+    padding: 10% 40px 40px;
     background: url(../images/hero-image.jpg) no-repeat;
     background-size: cover;
-    background-position: 0 0;
-    height: 760px;
+    background-position: 20 0;
+    height: 800px;
     position: relative;
 }
+
 .hero-image {
     background: url(../images/hero-1.jpg) no-repeat;
     background-size: cover;
@@ -173,12 +203,14 @@ button:hover {
     left: 0;
     opacity: 0.4;
 }
+
 .hero h2 {
     color: #fff;
     font-size: 24px;
     margin: 2em 0;
     letter-spacing: 0.03em;
 }
+
 .bio-hero {
     background-color: #000000;
     color: white;
@@ -190,10 +222,12 @@ button:hover {
     height: 760px;
     position: relative;
 }
+
 .bio p {
     font-weight: 400;
     color: #555;
 }
+
 .headline {
     font-weight: 900;
     font-family: montserrat, sans-serif;
@@ -204,18 +238,23 @@ button:hover {
     text-transform: uppercase;
     opacity: 0.8;
 }
+
 .color-block-red {
     background: #f44336;
 }
+
 .color-block-purple {
     background: #200329;
 }
+
 .color-block-orange {
     background: #ff6b07;
 }
+
 .color-block-white {
     background: #fff;
 }
+
 .mission h1 {
     font-weight: 900;
     font-family: montserrat, sans-serif;
@@ -237,6 +276,7 @@ button:hover {
     right: 0;
     left: 0;
 }
+
 .col.mission-bg-image1 {
     background: url(../images/hardwork-01.jpg) no-repeat;
     background-size: cover;
@@ -244,6 +284,7 @@ button:hover {
     padding: 40px 20px;
     min-height: 480px;
 }
+
 .cta h1 {
     font-weight: 700;
     font-family: montserrat, sans-serif;
@@ -255,38 +296,46 @@ button:hover {
     margin-bottom: 0;
     letter-spacing: 1px;
 }
+
 .cta {
     padding: 60px 20px;
 }
+
 .healthcare {
     color: #ffffff;
     padding: 80px 40px 40px;
 }
+
 .healthcare h1 {
     font-weight: 700;
     font-family: montserrat, sans-serif;
     font-size: 28px;
     margin: 0;
 }
+
 .massagebook {
     color: #000000;
     padding: 60px 40px 80px;
     background: #ffffff;
 }
+
 .massagebook h1 {
     font-weight: 700;
     font-family: montserrat, sans-serif;
     font-size: 32px;
     margin: 0;
 }
+
 .full-width {
     max-width: 100%;
 }
+
 .team {
     margin: 0;
     position: relative;
     background: #24002b;
 }
+
 .mikail,
 .interns,
 .row2A,
@@ -299,6 +348,7 @@ button:hover {
     min-height: 500px;
     transition: 1s;
 }
+
 .mikail:hover,
 .interns:hover,
 .row2A:hover,
@@ -310,24 +360,31 @@ button:hover {
     opacity: 0.5;
     cursor: pointer;
 }
+
 .mikail {
     background: url(../images/mikail.jpg) no-repeat;
 }
+
 .interns {
     background: url(../images/interns.jpg) no-repeat;
 }
+
 .row2A {
     background: url(../images/que.jpg) no-repeat;
 }
+
 .row2B {
     background: url(../images/askin_terry.jpg) no-repeat;
 }
+
 .row2C {
     background: url(../images/mikail-amin.jpg) no-repeat;
 }
+
 .row2D {
     background: url(../images/mahmood_amin.jpg) no-repeat;
 }
+
 .row2E {
     background: url(../images/valerie_escobar.jpg) no-repeat;
 }
@@ -339,6 +396,7 @@ button:hover {
     min-height: 480px;
     transition: 1s;
 }
+
 .interns-bg-image1 {
     background: url(../images/interns.jpg) no-repeat;
     background-size: cover;
@@ -346,6 +404,7 @@ button:hover {
     min-height: 480px;
     transition: 1s;
 }
+
 .mikail-bio-image {
     background: url(../images/bio-mikail.jpg) no-repeat;
     background-size: cover;
@@ -353,21 +412,26 @@ button:hover {
     min-height: 480px;
     transition: 1s;
 }
+
 .bio .flex-grid-half .col:nth-child(2) {
     padding: 60px 30px;
 }
+
 .bio .flex-grid-half .col {
     padding: 0;
 }
+
 .team h2.center {
     font-weight: 700;
     color: #fff;
     background: #24002bc2;
 }
+
 .team .col {
     transition: 1s;
     position: relative;
 }
+
 .services {
     color: #fff;
     padding: 80px 40px;
@@ -378,6 +442,7 @@ button:hover {
     background-size: cover;
     background-position: 0 0;
 }
+
 .services h1 {
     font-weight: 700;
     font-family: montserrat, sans-serif;
@@ -389,19 +454,23 @@ button:hover {
     margin-bottom: 0;
     letter-spacing: 1px;
 }
+
 .services .flex-grid-thirds .col {
     width: 32%;
     margin: 0 40px;
 }
+
 .services-2 {
     color: #fff;
     background-color: #29002d;
     text-align: center;
 }
+
 .services-2 .col {
     transition: 1s;
     position: relative;
 }
+
 .services1,
 .services2,
 .services3,
@@ -413,6 +482,7 @@ button:hover {
     min-height: 500px;
     transition: 1s;
 }
+
 .services1:hover,
 .services2:hover,
 .services3:hover,
@@ -422,6 +492,7 @@ button:hover {
     opacity: 0.5;
     cursor: pointer;
 }
+
 .services-2 h1 {
     font-weight: 700;
     font-family: montserrat, sans-serif;
@@ -433,39 +504,49 @@ button:hover {
     margin-bottom: 0;
     letter-spacing: 1px;
 }
+
 .services-2 h2.center {
     font-weight: 700;
     background: #ff2925bd;
     color: #fff;
 }
+
 .services-2 .flex-grid-thirds .col {
     width: 32%;
     margin: 0 40px;
 }
+
 .services1 {
     background: url(../images/personal-training.jpg) no-repeat;
 }
+
 .services2 {
     background: url(../images/stretch-therapy.jpg) no-repeat;
 }
+
 .services3 {
     background: url(../images/self-defense.jpg) no-repeat;
 }
+
 .services4 {
     background: url(../images/nutrition.jpg) no-repeat;
 }
+
 .services5 {
     background: url(../images/infared-sauna.jpg) no-repeat;
 }
+
 .services6 {
     background: url(../images/services6.jpg) no-repeat;
 }
+
 .services h2.center {
     color: #fff;
     font-weight: 700;
     margin-top: 75%;
     background: #24002ba8;
 }
+
 .service-content {
     vertical-align: middle;
     margin: 0;
@@ -476,25 +557,31 @@ button:hover {
     width: 100%;
     padding: 40px;
 }
+
 .services-section {
     background: #ffffff;
 }
+
 .services-section-content .flex-grid-half .col {
     padding: 60px;
 }
+
 .services-section-content h1 {
     color: #ff2925;
     font-size: 26px;
 }
+
 .contact {
     color: #fff;
     background: #24002b;
     padding: 0;
     position: relative;
 }
+
 .col.no-padding {
     padding-top: 0 !important;
 }
+
 .col.contact-bg-image {
     background: url(../images/contact-01.jpg) no-repeat;
     background-size: cover;
@@ -502,43 +589,90 @@ button:hover {
     padding: 40px 20px;
     min-height: 720px;
 }
+
 .contact h1 {
     margin-bottom: 60px;
 }
+
 .contact h2 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
+
 .contact h3 {
     color: #fff;
     font-weight: 700;
 }
+
 .contact p {
     color: #fff;
     font-size: 100%;
     font-weight: 300;
 }
+
 .col.google-map {
     padding: 0 !important;
     height: 540px;
 }
+
 .media {
     background: #000;
     color: #fff;
     min-height: 360px;
-    padding: 80px 40px;
+    padding: 80px 40px 0;
     position: relative;
 }
+
 .media .flex-grid .col {
     padding: 10px;
 }
+
+.event {
+    background: #000;
+    color: #fff;
+    min-height: 360px;
+    padding: 80px 50px;
+    position: relative;
+}
+
+.event h1 {
+    color: #ffffff;
+}
+
+.event h2 {
+    color: #ff2925;
+    font-weight: 600;
+}
+
+.event p {
+    color: #000000;
+    font-weight: 300;
+}
+
+.event .flex-grid-half .col:nth-child(2) {
+    padding: 60px 30px;
+}
+
+.event .flex-grid-half .col {
+    padding: 0;
+}
+
+.col.event-bg-image1 {
+    background: url(../images/hardwork-01.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 40px 20px;
+    min-height: 480px;
+}
+
 .about {
     background: #fff;
     min-height: 480px;
     padding: 80px 20px;
     position: relative;
 }
+
 .about-image {
     background: url(../images/about.jpg) no-repeat;
     background-size: cover;
@@ -550,9 +684,11 @@ button:hover {
     bottom: 0;
     left: 0;
 }
+
 .mobile-img {
     display: none;
 }
+
 .testimonial {
     background-color: #f1f1f1;
     color: #424242;
@@ -560,17 +696,20 @@ button:hover {
     min-height: 480px;
     padding: 80px 0;
 }
+
 .testimonial h1 {
     text-align: center;
     color: #ff2925;
     font-size: 26px;
     text-transform: uppercase;
 }
+
 .testimonial h2 {
     font-size: 1em;
     margin-bottom: 1.4em;
     letter-spacing: 0.02em;
 }
+
 .quote-author {
     font-size: 16px;
     font-weight: 600;
@@ -578,16 +717,19 @@ button:hover {
     text-transform: uppercase;
     text-align: center;
 }
+
 .footer {
     background-color: #000;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
+
 .bottom {
     position: absolute;
     bottom: 0;
 }
+
 .vh-align-center {
     display: -webkit-box;
     display: -webkit--grid;
@@ -598,23 +740,28 @@ button:hover {
     -ms-flex-align: center;
     align-items: center;
 }
+
 .vh-align-item {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
 }
+
 .vh-align-top {
     align-self: flex-start;
 }
+
 .vh-align-bottom {
     align-self: flex-end;
 }
+
 .align-bottom {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+
 .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -627,12 +774,15 @@ button:hover {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
 .flex-grid {
     display: flex;
 }
+
 .flex-grid .col {
     flex: 1;
 }
+
 .flex-grid-half {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -640,21 +790,26 @@ button:hover {
     justify-content: space-between;
     position: relative;
 }
+
 .flex-grid-half .col {
     width: 50%;
     padding: 60px 30px;
 }
+
 .flex-grid-thirds {
     display: flex;
     justify-content: space-between;
     margin: 20px;
 }
+
 .flex-grid-thirds .col {
     width: 32%;
 }
+
 * {
     box-sizing: border-box;
 }
+
 .scrollToTop {
     background: #ff292570;
     border-radius: 8px;
@@ -665,11 +820,13 @@ button:hover {
     right: 40px;
     text-align: center;
 }
+
 .scrollToTop a {
     color: #fff;
     text-decoration: none;
     font-size: 1.4em;
 }
+
 .scrollToTop a svg {
     margin: 10px 10px 0;
 }
@@ -683,51 +840,65 @@ button:hover {
     .flex-grid-thirds .col li {
         text-align: left;
     }
+
     .col p {
         text-align: center;
     }
+
     .cta h1 {
         font-size: 28px;
         padding: 40px 0;
     }
+
     .team h2.center {
         font-size: 22px;
     }
+
     .headline {
         font-size: 52px;
     }
+
     .hero {
         height: auto;
     }
+
     .mission h1 {
         font-size: 32px;
     }
+
     .services h1 {
         padding: 0;
     }
+
     .flex-grid {
         display: block;
     }
+
     .flex-grid-half .col,
     .flex-grid-thirds .col {
         width: 100%;
         text-align: center;
         padding: 40px 0;
     }
+
     .flex-grid-thirds {
         display: block;
         justify-content: space-between;
         margin: 0;
     }
+
     .flex-grid-half {
         display: block;
     }
+
     .mobile-img {
         display: block;
     }
+
     .about-image {
         background: 0 0;
     }
+
     .service-content {
         vertical-align: middle;
         margin: 0;
@@ -739,16 +910,20 @@ button:hover {
         padding: 40px;
     }
 }
+
 @media screen and (max-width: 1024px) {
     header {
         position: inherit;
     }
+
     .primary-nav {
         display: none;
     }
+
     .secondary-nav {
         display: block;
     }
+
     .secondary-nav .navbar {
         display: block;
         z-index: 9999;
@@ -756,17 +931,20 @@ button:hover {
         background: #333;
         width: 100%;
     }
+
     .header-logo img {
         padding: 40px 0;
         display: flex;
         margin: 0 auto;
     }
+
     #toggle {
         width: 20px;
         height: 20px;
         margin: 20px auto;
         background: #000;
     }
+
     #toggle div {
         width: 100%;
         height: 2px;
@@ -775,6 +953,7 @@ button:hover {
         transition: all 0.3s;
         backface-visibility: hidden;
     }
+
     .healthcare .flex-grid-half .col,
     .healthcare .flex-grid-thirds .col {
         width: 100%;
@@ -787,26 +966,33 @@ button:hover {
     header {
         position: inherit;
     }
+
     .hero {
         padding: 20px 0;
     }
+
     .hero h2 {
         font-size: 1.3em;
     }
+
     .bio-hero {
         padding: 20px;
         height: 100%;
     }
+
     .testimonial h2 {
         font-size: 18px;
     }
+
     .button-primary {
         display: none;
     }
+
     .nav-btn.next-slide,
     .nav-btn.prev-slide {
         display: none;
     }
+
     .vertically-center {
         top: 0;
         transform: none;
