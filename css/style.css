@@ -658,8 +658,8 @@ button:hover {
     padding: 0;
 }
 
-.col.event-bg-image1 {
-    background: url(../images/hardwork-01.jpg) no-repeat;
+.col.event-bg-image {
+    background: url(../images/women_wellness.jpg) no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     padding: 40px 20px;
