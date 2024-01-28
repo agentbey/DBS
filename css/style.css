@@ -184,11 +184,11 @@ button:hover {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 10% 40px 40px;
+    padding: 15% 40px 40px;
     background: url(../images/hero-image.jpg) no-repeat;
     background-size: cover;
-    background-position: 20 0;
-    height: 800px;
+    background-position: 0 0;
+    height: 960px;
     position: relative;
 }
 
