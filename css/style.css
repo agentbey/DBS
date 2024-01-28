@@ -215,11 +215,11 @@ button:hover {
     background-color: #000000;
     color: white;
     text-align: center;
-    padding: 15% 40px 40px;
+    padding: 10% 40px 40px;
     background: url("../images/abstract-background@2x.jpg") no-repeat;
     background-size: cover;
     background-position: 0% 0%;
-    height: 760px;
+    height: 800px;
     position: relative;
 }
 
