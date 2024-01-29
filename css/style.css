@@ -728,8 +728,9 @@ button:hover {
 
 .products h1 {
     color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
-
 .products h2 {
     color: #ff2925;
     font-weight: 600;
@@ -1059,5 +1060,8 @@ button:hover {
         top: 0;
         transform: none;
         position: inherit;
+    }
+    .products {
+        padding: 20px 40px;
     }
 }
