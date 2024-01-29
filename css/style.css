@@ -718,6 +718,68 @@ button:hover {
     text-align: center;
 }
 
+.products {
+    background: #200329;
+    color: #fff;
+    min-height: 360px;
+    padding: 40px 100px 40px;
+    position: relative;
+}
+
+.products h1 {
+    color: #ffffff;
+}
+
+.products h2 {
+    color: #ff2925;
+    font-weight: 600;
+}
+.products h3 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    line-height: 0;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 4em;
+}
+
+.products p {
+    color: #333333;
+    font-weight: 300;
+}
+
+.products .flex-grid-half .col {
+    padding: 60px 40px;
+}
+
+.products .price {
+    font-weight: 700;
+}
+
+.detoxsoak-bg-image {
+    background: url(../images/detox-soak.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 40px 20px;
+    min-height: 480px;
+}
+.sugarscrub-bg-image {
+    background: url(../images/sugar-scrub.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 40px 20px;
+    min-height: 480px;
+}
+.bodybutter-bg-image {
+    background: url(../images/body-butter.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 40px 20px;
+    min-height: 480px;
+}
+
 .footer {
     background-color: #000;
     color: #fff;
