@@ -1,4 +1,4 @@
-CACHE MANIFEST
+aCACHE MANIFEST
 # 2017-09-20 v1.0.0
 
 /css/animate.min.css
@@ -7,35 +7,44 @@ CACHE MANIFEST
 /css/owl.theme.default.min.css
 /css/style.css
 
-/images/4_Card_color_horizontal.png
-/images/abstract-background@2x.jpg
-/images/bio-mikail.jpg
-/images/cameron.jpg
+/images/detox-soak.png
+/images/body-butter.png
+/images/sugar-scrub.png
+/images/women_wellness.jpg
+/images/wurd_interview_2023.jpg
+/images/mikail-amin.jpg
+/images/mahmood_amin.jpg
+/images/askin_terry.jpg
+/images/valerie_escobar.jpg
+/images/interns.jpg
+/images/que.jpg
+/images/white-logo-final.svg
+/images/mikail.jpg
+/images/stretch-therapy.jpg
+/images/self-defense.jpg
+/images/right-arrow.svg
+/images/reebok.png
+/images/pexels-photo-209968.jpg
+/images/personal-training.jpg
+/images/nutrition.jpg
+/images/mb-logo-green.svg
+/images/infared-sauna.jpg
+/images/hero-image.jpg
+/images/hardwork-01.jpg
+/images/glyph-logo_May2016_white.png
+/images/favicon.png
+/images/f_logo_RGB-White_512.png
+/images/dumbbell.svg
+/images/contact-01.jpg
 /images/chestnut_hill_news_02.jpg
 /images/chestnut_hill_news.jpg
-/images/contact-01.jpg
-/images/dumbbell.svg
-/images/f_logo_RGB-White_512.png
-/images/favicon.png
-/images/glyph-logo_May2016_white.png
-/images/hardwork-01.jpg
-/images/hero-image.jpg
-/images/infared-sauna.jpg
-/images/mb-logo-green.svg
-/images/mikail.jpg
-/images/nija.jpg
-/images/nutrition.jpg
-/images/personal-training.jpg
-/images/pexels-photo-209968.jpg
-/images/reebok.png
-/images/right-arrow.svg
-/images/self-defense.jpg
-/images/stretch-therapy.jpg
-/images/white-logo-final.svg
+/images/bio-mikail.jpg
+/images/abstract-background@2x.jpg
+/images/4_Card_color_horizontal.png
 /js/deznx.js
 /js/wow.min.js
 /js/jquery-3.1.0.min.js
 /js/owl.carousel.min.js
-
+/js/bootstrap.min.js
 
 https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap
