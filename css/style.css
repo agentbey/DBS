@@ -342,7 +342,8 @@ button:hover {
 .row2B,
 .row2C,
 .row2D,
-.row2E {
+.row2E,
+.row2F {
     background-size: cover !important;
     background-position: 50% 50% !important;
     min-height: 500px;
@@ -356,6 +357,7 @@ button:hover {
 .row2C:hover,
 .row2D:hover,
 .row2E:hover,
+.row2F:hover,
 .nija:hover {
     opacity: 0.5;
     cursor: pointer;
@@ -387,6 +389,10 @@ button:hover {
 
 .row2E {
     background: url(../images/valerie_escobar.jpg) no-repeat;
+}
+
+.row2F {
+    background: url(../images/asia_taylor.jpg) no-repeat;
 }
 
 .mikail-bg-image1 {
