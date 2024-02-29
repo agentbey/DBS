@@ -358,7 +358,7 @@ button:hover {
 .row2D:hover,
 .row2E:hover,
 .row2F:hover,
-.nija:hover {
+.row2G:hover {
     opacity: 0.5;
     cursor: pointer;
 }
@@ -393,6 +393,9 @@ button:hover {
 
 .row2F {
     background: url(../images/asia_taylor.jpg) no-repeat;
+}
+.row2G {
+    background: url(../images/new_trainer.jpg) no-repeat;
 }
 
 .mikail-bg-image1 {
