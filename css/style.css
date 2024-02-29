@@ -343,7 +343,8 @@ button:hover {
 .row2C,
 .row2D,
 .row2E,
-.row2F {
+.row2F,
+.row2G {
     background-size: cover !important;
     background-position: 50% 50% !important;
     min-height: 500px;
@@ -358,7 +359,7 @@ button:hover {
 .row2D:hover,
 .row2E:hover,
 .row2F:hover,
-.2g:hover {
+.row2G:hover {
     opacity: 0.5;
     cursor: pointer;
 }
