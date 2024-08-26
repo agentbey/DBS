@@ -5,3 +5,4 @@ images/.abstract-background.pxd.icloud
 *.pxd
 *.json
 *.json
+/.idea
