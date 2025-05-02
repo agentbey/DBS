@@ -575,7 +575,7 @@ button:hover {
     background-size: cover;
     background-position: top center;
     padding: 40px 20px;
-    min-height: 720px;
+    min-height: 540px;
 }
 
 .contact h1 {
