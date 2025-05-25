@@ -357,7 +357,7 @@ button:hover {
 }
 
 .interns {
-    background: url(../images/interns.jpg) no-repeat;
+    background: url(../images/interns-2025.jpg) no-repeat;
 }
 
 .ajones {
@@ -373,8 +373,8 @@ button:hover {
 }
 
 .interns-bg-image1 {
-    background: url(../images/interns.jpg) no-repeat;
-    background-size: cover;
+    background: url(../images/interns-2025.jpg) no-repeat;
+    background-size: contain;
     background-position: 50% 50%;
     min-height: 480px;
     transition: 1s;
