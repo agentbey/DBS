@@ -1,7 +1,7 @@
 body {
     color: #555;
     font-family: Montserrat, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     background: #000;
     line-height: 1.6;
     font-weight: 300;
@@ -90,7 +90,7 @@ li.main-nav-item {
     display: inline-block;
     text-align: center;
     margin: 0;
-    padding: 40px 3%;
+    padding: 40px 2%;
 }
 
 .main-nav-item a {
@@ -310,7 +310,6 @@ button:hover {
     font-weight: 700;
     font-family: montserrat, sans-serif;
     font-size: 28px;
-    margin: 0;
 }
 
 .massagebook {
