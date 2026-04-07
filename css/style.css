@@ -893,20 +893,29 @@ button:hover {
 }
 
 :root {
-  --video-height: 640px;
+  --video-height-640: 640px;
+  --video-height-272: 272px;
+  
 }
 
-.video-embed {
+.video-embed-full {
   width: 100%;
   max-width: 1138px; /* 16:9 width for 640px height */
-  height: var(--video-height) !important;
+  height: var(--video-height-640) !important;
+  display: block;
+  margin: 0 auto;
+}
+.video-embed-small {
+  width: 100%;
+  max-width: 1138px; /* 16:9 width for 640px height */
+  height: var(--video-height-272) !important;
   display: block;
   margin: 0 auto;
 }
 
 /* On screens smaller than the video width, let the height be fluid */
 @media (max-width: 1138px) {
-  .video-embed {
+  .video-embed-full, .video-embed-small {
     height: auto !important; 
     aspect-ratio: 16 / 9;
     max-width: 100%;
