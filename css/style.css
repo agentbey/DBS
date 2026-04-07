@@ -892,6 +892,27 @@ button:hover {
     padding-right: 30px;
 }
 
+:root {
+  --video-height: 640px;
+}
+
+.video-embed {
+  width: 100%;
+  max-width: 1138px; /* 16:9 width for 640px height */
+  height: var(--video-height) !important;
+  display: block;
+  margin: 0 auto;
+}
+
+/* On screens smaller than the video width, let the height be fluid */
+@media (max-width: 1138px) {
+  .video-embed {
+    height: auto !important; 
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 1024px) {
     .flex-grid-half .col li,
     .flex-grid-thirds .col li {
