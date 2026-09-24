@@ -243,6 +243,10 @@ button:hover {
     background: #f44336;
 }
 
+.color-block-pink {
+    background: #f2496b;
+}
+
 .color-block-purple {
     background: #200329;
 }
@@ -604,6 +608,24 @@ button:hover {
     height: 540px;
 }
 
+.wellhub h1 {
+    font-weight: 700;
+    font-family: montserrat, sans-serif;
+    font-size: 30px;
+    line-height: normal;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.wellhub {
+    padding: 40px 20px;
+    text-align: center;
+}
+
 .media {
     background: #000;
     color: #fff;
@@ -708,6 +730,9 @@ button:hover {
 
 .products {
     background: #200329;
+    background: url(../images/abstract-background@2x.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 0;
     color: #fff;
     min-height: 360px;
     padding: 40px 100px 40px;
