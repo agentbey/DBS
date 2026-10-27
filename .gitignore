@@ -7,3 +7,4 @@ images/.abstract-background.pxd.icloud
 *.json
 /.idea
 _OLD/
+production/
