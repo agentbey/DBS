@@ -1,10 +1,6 @@
+# Configuration / Data Files
+*.json
 
-.DS_Store
-.DS_Store
-images/.abstract-background.pxd.icloud
-*.pxd
-*.json
-*.json
-/.idea
+# Archive and Build Directories
 _OLD/
 production/
